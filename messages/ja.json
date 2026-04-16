@@ -1,0 +1,566 @@
+{
+  "general": {
+    "appName": "ペットケアコンパニオン",
+    "welcome": "WanNyaへようこそ",
+    "pleaseWait": "お待ちください...",
+    "loading": "読み込み中...",
+    "petOnWay": "ペットがやってきます 🐾"
+  },
+  "welcome": {
+    "title": "Welcome to WanNya",
+    "subtitle": "ペットケアコンパニオン",
+    "signup": "新規登録",
+    "login": "ログイン",
+    "demo": "デモを試す",
+    "slides": [
+      {
+        "title": "WanNyaへようこそ",
+        "description": "あなたの大切なペットにぴったりのケアを見つけましょう"
+      },
+      {
+        "title": "アレルギーへの配慮",
+        "description": "ペットのアレルギーを考慮した、安全な製品をお届けします。"
+      },
+      {
+        "title": "東京中をカバー",
+        "description": "グルーミングからお散歩代行まで、信頼できるパートナーとお繋ぎします。"
+      }
+    ]
+  },
+  "signup": {
+    "title": "WanNyaファミリーに参加しよう",
+    "profileName": "プロフィール名",
+    "nickName": "ニックネーム",
+    "email": "メールアドレス",
+    "emailPlaceholder": "pet.parent@email.com",
+    "password": "パスワードを作成",
+    "passwordPlaceholder": "安全なパスワードを入力してください",
+    "confirmPassword": "パスワードを確認",
+    "confirmPasswordPlaceholder": "パスワードを再入力してください",
+    "terms": "利用規約",
+    "securityNote": "ペットのデータを大切に、安全に守ります",
+    "createProfile": "ペットプロフィールを作成",
+    "or": "または",
+    "google": "Googleで続ける",
+    "apple": "Appleで続ける",
+    "nameError": "名前は2文字以上にする必要があります",
+    "emailError": "有効なメールアドレスを入力してください",
+    "passwordError": "パスワードは6文字以上にする必要があります",
+    "passwordMatch": "パスワードが一致しません",
+    "fullName": "フルネーム",
+    "petParent": "飼い主のお名前",
+    "creating": "アカウントを作成中...",
+    "privacy": "プライバシーポリシー",
+    "agree": "利用規約およびプライバシーポリシーに同意します",
+    "dataProtection": "ペットのデータを大切に、安全に守ります"
+  },
+  "login": {
+    "title": "ペットのお世話を続けましょう",
+    "email": "メールアドレス",
+    "emailPlaceholder": "pet.parent@email.com",
+    "password": "パスワード",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "remember": "ログイン情報を保存する",
+    "forgot": "パスワードをお忘れですか？",
+    "login": "ログイン",
+    "or": "または",
+    "google": "Googleで続ける",
+    "apple": "Appleで続ける",
+    "emailError": "有効なメールアドレスを入力してください",
+    "passwordError": "パスワードは6文字以上にする必要があります",
+    "failed": "ログインに失敗しました。入力情報をご確認ください。",
+    "invalid": "ユーザー名またはパスワードが正しくありません。",
+    "loading": "サインイン中..."
+  },
+  "petProfile": {
+    "step": "ステップ",
+    "title": "ペットプロフィール",
+    "editTitle":"ペットプロフィールを編集",
+    "cat": "にゃんちゃん",
+    "dog": "ワンチャン",
+    "petName": "ペットの名前",
+    "placeholder": "ペットの名前を入力してください",
+    "petNameError":"ペットの名前は必須です",
+    "tip": "ヒント：",
+    "tipText": "「Leo」と入力すると、デモプロフィールが自動的に設定されます。",
+    "next": "次へ"
+  },
+  "petBreed": {
+    "step": "ステップ 2/7",
+    "title": "ペットの品種",
+    "placeholder": "ペットの品種を入力してください",
+    "popular": "人気の品種",
+    "breeds": {
+      "toyPoodle": "トイプードル",
+      "chihuahua": "チワワ",
+      "pomeranian": "ポメラニアン",
+      "shiba": "柴ワンちゃん",
+      "frenchBulldog": "フレンチ・ブルワンちゃん",
+      "yorkshire": "ヨークシャー・テリア",
+      "maltese": "マルチーズ",
+      "papillon": "パピヨン",
+      "dachshund": "ダックスフンド",
+      "shihTzu": "シー・ズー"
+    },
+    "note": "わからない場合は「ミックス」でも大丈夫です。",
+    "failed":"品種情報の取得に失敗しました:",
+    "next": "次へ",
+    "editCat":"猫種を編集",
+    "editDog":"犬種を編集",
+    "cat":"猫種",
+    "dog":"犬種"
+    
+  },
+  "age": {
+    "step": "ステップ 3/7",
+    "title": "年齢入力",
+    "gender": "性別",
+    "male": "オス",
+    "female": "メス",
+    "example": "例：オス",
+    "dob": "生年月日",
+    "date": "日",
+    "month": "月",
+    "year": "年",
+    "months": {
+      "jan": "1月",
+      "feb": "2月",
+      "mar": "3月",
+      "apr": "4月",
+      "may": "5月",
+      "jun": "6月",
+      "jul": "7月",
+      "aug": "8月",
+      "sep": "9月",
+      "oct": "10月",
+      "nov": "11月",
+      "dec": "12月"
+    },
+    "selectG": "性別を選択してください",
+    "completeDOB": "ペットの生年月日をすべて入力してください",
+    "onlyDays": "日付のみ入力されています",
+    "futureDOB": "生年月日に未来の日付は設定できません",
+    "dobType": "DD/MM/YYYY",
+    "next": "次へ"
+  },
+  "allergies": {
+    "step": "ステップ 4/7",
+    "title": "ペットのアレルギー",
+    "allergies": "アレルギー",
+    "items": {
+      "chicken": "鶏肉",
+      "beef": "牛肉",
+      "dairy": "乳製品",
+      "eggs": "卵",
+      "wheat": "小麦",
+      "soy": "大豆",
+      "none":"なし"
+    },
+    "custom": "その他のアレルギー",
+    "select":"少なくとも1つのアレルギーを選択するか、自由入力してください",
+    "placeholder": "ペットのアレルギーを入力してください",
+    "sensitivity": "体質・配慮項目",
+    "options": {
+      "grainFree": "グレインフリー",
+      "glutenFree": "グルテンフリー",
+      "lowFat": "低脂肪",
+      "sensitiveStomach": "お腹が敏感"
+    },
+    "clear": "すべてクリア",
+    "next": "次へ"
+  },
+  "upload": {
+    "step": "ステップ 5/7",
+    "pic": "写真をアップロード（任意）",
+    "pet": "ペット",
+    "default":"デフォルトの肉球アバター",
+    "note": "注：",
+    "noteText": "スキップした場合、デフォルトのアバターが使用されます。",
+    "skip": "スキップ",
+    "next": "次へ"
+  },
+  "summary": {
+    "step": "ステップ 6/7",
+    "seven":"ステップ7/7",
+    "title": "確認内容",
+    "petName": "ペットの名前",
+    "typeBreed": "ペットの種類 × 品種",
+    "allergies": "アレルギー",
+    "sensitivity": "体質・配慮項目",
+    "diet": "食事タイプ",
+    "vegan": "ヴィーガン",
+    "edit": "編集",
+    "finish": "完了",
+    "update": "ペット情報を更新"
+  },
+  "forgotPassword": {
+    "title": "パスワードをお忘れですか？",
+    "email": "メールアドレス",
+    "back": "ログインに戻る",
+    "send": "認証コードを送信",
+    "sending": "送信中...",
+    "loading": "リセットコードを送信中...",
+    "signup": "新規登録",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "otpSentTitle": "コード送信完了",
+    "otpSentMessage": "認証コードをメールで確認してください",
+    "errorTitle": "エラー",
+    "errorMessage": "コード送信に失敗しました"
+  },
+  "otp": {
+    "title": "認証コードを入力",
+    "notReceived": "コードが届かない場合",
+    "resend": "30秒後に再送信",
+    "verify": "認証",
+    "verified": "認証済み",
+    "invalid": "無効な認証コード",
+    "failed": "認証に失敗しました",
+    "sent": "認証コードを送信しました",
+    "resendFail": "認証コードの再送信に失敗しました",
+    "enter": "認証コードを入力"
+  },
+  "setPassword": {
+    "title": "新しいパスワードを入力",
+    "password": "新しいパスワードを入力",
+    "confirm": "パスワードを確認",
+    "confirmPlaceholder": "パスワードを再入力してください",
+    "rules": {
+      "title": "パスワードの条件：",
+      "length": "8文字以上",
+      "number": "数字を1文字以上",
+      "letter": "英字を1文字以上"
+    },
+    "back": "ログインに戻る",
+    "submit": "送信"
+  },
+  "nav": {
+    "home": "ホーム",
+    "shop": "ショップ",
+    "bookings": "予約",
+    "bentos": "弁当",
+    "profile": "プロフィール"
+  },
+  "shop": {
+    "search": "フード、おもちゃ、グルーミングを検索…",
+    "petName": "ブルノ",
+    "addLater": "年齢・品種は後で追加",
+    "allergy": "⚠️ アレルギー",
+    "recommended": "おすすめ商品",
+    "foods": "フード",
+    "toys": "おもちゃ",
+    "supplements": "サプリメント",
+    "viewMore": "もっと見る",
+    "add": "追加"
+  },
+  "booking": {
+    "title": "予約",
+    "salons": "ペットサロン",
+    "clinics": "ペットクリニック",
+    "hotels": "ペットホテル",
+    "grooming": "プロフェッショナルグルーミング",
+    "groomingDesc": "フルグルーミングサービス",
+    "vet": "健康診断",
+    "walk": "ワンちゃんのお散歩サービス",
+    "vetDesc": "総合健康チェック",
+    "walkDesc": "プロによるワンちゃんの散歩サービス",
+    "duration45": "45分",
+    "duration1Day": "1日",
+    "add": "追加",
+    "success": "予約に成功しました！",
+    "placed": "ご注文が正常に行われました。",
+    "orderNumber": "注文番号",
+    "continue": "買い物を続ける"
+  },
+  "bento": {
+    "title": "ペット弁当",
+    "kittenPlan": "ニャンちゃん成長プラン",
+    "maintenance": "維持管理プラン",
+    "weight": "体重管理プラン",
+    "activeDog": "アクティブワンちゃんプラン",
+    "seniorCat": "シニアニャンちゃんケア"
+  },
+  "profile": {
+    "title": "プロフィール",
+    "username": "ユーザー名",
+    "email": "User_email@gmail.com",
+    "reservations": "予約",
+    "purchased": "購入履歴",
+    "rating": "評価",
+    "points": "ポイント",
+    "pets": "ペット",
+    "dog": "ワンちゃん",
+    "cat": "ニャンちゃん",
+    "breed": "品種",
+    "active": "有効",
+    "addPet": "ペットを追加 +",
+    "addresses": "住所",
+    "language": "言語",
+    "payments": "支払い方法",
+    "orders": "注文履歴",
+    "help": "ヘルプ",
+    "logout": "ログアウト"
+  },
+  "petinfo":{
+    "pet": "あなたの ペット",
+    "breed": "品種は後で追加",
+    "type":"ペットの種類 "
+  },
+  "addresses": {
+    "title": "住所",
+    "home": "自宅住所",
+    "office": "勤務先住所",
+    "postcode": "郵便番号",
+    "add": "住所を追加 +",
+    "edit": "編集"
+  },
+  "payment": {
+    "title": "支払い方法",
+    "visa": "Visa **** 4111",
+    "master": "Mastercard",
+    "expires": "有効期限 MM/DD",
+    "add": "支払い方法を追加",
+    "edit": "編集"
+  },
+  "orders": {
+    "title": "注文履歴",
+    "empty": "まだ注文はありません",
+    "oops": "エラー",
+    "orderNow": "今すぐ注文"
+  },
+  "cart": {
+    "title": "カート",
+    "items": "商品",
+    "remove": "削除",
+    "orderNow": "今すぐ注文",
+    "similar": "関連商品：",
+    "empty": "カートは空です",
+    "order": "今すぐ注文",
+    "processingOrder": "注文を処理中..."
+  },
+  "notifications": {
+    "title": "通知",
+    "heading": "通知タイトル",
+    "content": "通知内容",
+    "expiry": "有効期限",
+    "read": "既読にする",
+    "deleteAll": "すべて削除",
+    "empty": "まだ通知はありません！",
+    "emptyDesc": "現在新しいお知らせはありません。更新があり次第お知らせします。",
+    "link":"完了",
+    "copied":"リンクをコピーしました！",
+    "check":"WanNyaでこの商品をチェック",
+    "shareCancel":"共有をキャンセルしました",
+    "bookingConfirmed": {
+      "title": "予約確定",
+      "desc": "グルーミングの予約が完了しました。",
+      "expires": "有効期限"
+    }
+  },
+
+  "system": {
+    "error": "エラー",
+    "otpSent": "認証コードを送信しました",
+    "addedToCart": "カートに追加しました",
+    "sessionExpired": "セッションの有効期限が切れました"
+  },
+  
+  "product": {
+    "packSize": "内容量：",
+    "details": "商品詳細",
+    "detailExample": "ペットの健康と幸せを考えて作られた高品質な商品です。.",
+    "key":"特徴",
+    "viewDetails": "商品詳細を見る",
+    "youMayLike": "こちらもおすすめ：",
+    "add": "追加",
+    "similar": "関連商品：",
+    "addToCart": "カートに追加",
+    "inStock": "在庫あり",
+    "freeDelivery": "送料無料",
+    "quality": "品質保証",
+    "returns": "簡単返品",
+    "quantity": "数量",
+    "buyNow": "今すぐ購入",
+    "review": "レビュー",
+    "reviews": "カスタマーレビュー",
+    "writeReview": "レビューを書く",
+    "submit": "レビューを送信",
+    "select":"必要な数量を選択してください",
+    "by": "販売元",
+    "ingred":"原材料",
+    "nutInfo":"栄養成分",
+    "total": "合計金額"
+  },
+
+  "reviews": {
+    "error": "エラー",
+    "writeReview": "レビューを入力してください",
+    "reviewSubmitted": "レビューを投稿しました",
+    "thankYou": "ご投稿ありがとうございます！",
+    "submitFailed": "レビューの投稿に失敗しました",
+    "customerReviews": "カスタマーレビュー",
+    "avg": "平均",
+    "stars":"星",
+    "reviewsCount": "件のレビュー",
+    "rating": "評価",
+    "writeAReview": "レビューを書く",
+    "yourReview": "あなたのレビュー",
+    "placeholder": "この商品の感想をお聞かせください...",
+    "submitReview": "レビューを投稿",
+    "loading": "レビューを読み込み中...",
+    "noReviews": "まだレビューはありません。最初のレビューを投稿しましょう！",
+    "verified": "購入確認済み",
+    "helpful": "参考になった"
+  },
+  "grooming": {
+    "timings": "営業時間：",
+    "opening": "開始：午後5時",
+    "closing": "終了：午前11時"
+  },
+  "calendar": {
+    "selectDate": "チェックイン日を選択",
+    "done": "完了"
+  },
+  "timing": {
+    "selectTime": "チェックイン時間を選択"
+  },
+  "search": {
+    "tryAgain": "フィルターを調整するか、別のキーワードで検索してみてください",
+    "removeAllergy": "アレルギーフィルターを解除",
+    "increasePrice": "価格帯を広げる",
+    "checkSpelling": "再確認お願いします",
+    "clear": "すべてのフィルターをクリア",
+    "placeholder": "商品、ブランド、サービスを検索...",
+    "loading": "検索中...",
+    "failed": "検索に失敗しました",
+    "foodsearch": "フード、おもちゃ、グルーミングを検索",
+    "question": "何をお探しですか？",
+    "description": "フード、おもちゃ、サプリメント、サービスを検索できます。",
+    "no":"該当する結果が見つかりませんでした ",
+    "title":"検索",
+
+    "results": {
+      "found": "検索結果",
+      "for": "の検索結果"
+    },
+
+    "sort": {
+      "label": "並び替え:",
+      "relevance": "おすすめ順",
+      "lowToHigh": "価格: 安い順",
+      "highToHigh": "価格: 高い順"
+    },
+
+    "categories": {
+      "all": "すべてのカテゴリ",
+      "food": "フード",
+      "toys": "おもちゃ",
+      "supplements": "サプリメント"
+    },
+
+    "filters": "絞り込み",
+    "noSuggestions": "次に対する候補はありません"
+  },
+  "filters": {
+    "title": "フィルター",
+    "clear": "フィルターをクリア",
+    "species": "種類",
+    "age": "年齢ステージ",
+    "size": "サイズ",
+    "brand": "ブランド",
+    "price": "価格帯",
+    "allergy": "アレルギータグ",
+    "total": "検索結果数",
+    "apply": "適用"
+  },
+  "sort": {
+    "title": "並び替え",
+    "relevance": "関連度順",
+    "popularity": "人気順",
+    "lowToHigh": "価格が安い順",
+    "highToLow": "価格が高い順"
+  },
+  "error": {
+    "title": "エラー",
+    "login": "ログインに失敗しました。入力情報をご確認ください",
+    "incorrect": "正しくありません"
+  },
+  "noInternet": {
+    "title": "エラー",
+    "oops": "エラー",
+    "message": "インターネット接続が失われました",
+    "retry": "再接続"
+  },
+  "success": {
+    "title": "おめでとうございます！！",
+    "message": "ご注文の予約が正常に完了しました",
+    "continue": "続ける"
+  },
+  "failure": {
+    "title": "エラー",
+    "message": "問題が発生しました。ご注文の予約に失敗しました",
+    "retry": "再試行"
+  },
+  "splash": {
+    "welcome": "WanNyaへようこそ",
+    "subtitle": "あなたの大切なペットにぴったりのケアを見つけましょう",
+    "allergyFriendly": "アレルギーへの配慮",
+    "allergyDesc": "ペットのアレルギーを考慮した、安全な製品をお届けします。",
+    "acrossTokyo": "東京中をカバー",
+    "tokyoDesc": "グルーミングからお散歩代行まで、信頼できるパートナーとお繋ぎします。",
+    "companion": "ペットケアコンパニオン",
+    "tryDemo": "デモを試す",
+    "signup": "新規登録",
+    "login": "ログイン"
+  },
+  "resetPassword": {
+    "title": "パスワードをリセット",
+    "success": "パスワードが正常にリセットされました！新しいパスワードでログインしてください。",
+    "error": "パスワードのリセットに失敗しました",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "パスワードの確認",
+    "verifyReset": "確認してパスワードをリセット"
+  },
+  "pets": {
+    "noPets": "まだペットがいません",
+    "addFirst": "最初のペットを追加する",
+    "desc":"最初のペットを追加してサービス予約を始めましょう",
+    "refresh":"更新",
+    "error":"エラー",
+    "load":"ペットを読み込み中..."
+  },
+   "popularBreeds": {
+    "dogBreeds":{
+      "labradorRetriever": "ラブラドール・レトリバー",
+      "germanShepherd": "ジャーマン・シェパード",
+      "goldenRetriever": "ゴールデン・レトリバー",
+      "frenchBulldog": "フレンチ・ブルドッグ",
+      "bulldog": "ブルドッグ",
+      "poodle": "プードル",
+      "beagle": "ビーグル",
+      "rottweiler": "ロットワイラー"
+    },
+    "catBreeds":{
+      "persian": "ペルシャ",
+      "maineCoon": "メインクーン",
+      "britishShorthair": "ブリティッシュショートヘア",
+      "americanShorthair": "アメリカンショートヘア",
+      "ragDoll": "ラグドール",
+      "bengal": "ベンガル",
+      "siamese": "シャム",
+      "abyssinian": "アビシニアン"
+  },
+     "search":"検索",
+     "breed":"品種"
+   },
+  "onboarding": {
+    "step1": "ステップ 1/7",
+    "step2": "ステップ 2/7",
+    "step3": "ステップ 3/7",
+    "step4": "ステップ 4/7",
+    "step5": "ステップ 5/7",
+    "step6": "ステップ 6/7",
+    "step7": "ステップ 7/7",
+    "next": "次へ",
+    "finish": "完了"
+  }
+}

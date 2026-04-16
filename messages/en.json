@@ -1,0 +1,561 @@
+{
+  "general": {
+    "appName": "Pet Care Companion",
+    "welcome": "Welcome to WanNya",
+    "pleaseWait": "Please wait...",
+    "loading": "Loading...",
+    "petOnWay": "Your pet is on the way 🐾"
+  },
+  "welcome": {
+    "title": "Welcome to WanNya",
+    "subtitle": "Pet Care Companion",
+    "signup": "Sign-Up",
+    "login": "Login",
+    "demo": "Try Demo",
+    "slides": [
+      {
+        "title": "Welcome to WanNya",
+        "description": "Let’s find the perfect care for your beloved pet"
+      },
+      {
+        "title": "Allergy-Friendly",
+        "description": "We deliver safe products designed with your pet’s allergies in mind."
+      },
+      {
+        "title": "Across Tokyo",
+        "description": "From grooming to dog-walking, connect with trusted professionals."
+      }
+    ]
+  },
+  "signup": {
+    "title": "Join the WanNya Family",
+    "profileName": "Profile Name",
+    "nickName": "Nick Name",
+    "email": "Email Address",
+    "emailPlaceholder": "pet.parent@email.com",
+    "password": "Create Password",
+    "passwordPlaceholder": "Enter a secure password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "terms": "Terms of Service",
+    "securityNote": "We protect your pet’s data with care and love",
+    "createProfile": "Create Pet Profile",
+    "or": "OR",
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "nameError": "Name must be at least 2 characters",
+    "emailError": "Enter a valid email",
+    "passwordError": "Password must be at least 6 characters",
+    "passwordMatch": "Passwords do not match",
+    "fullName": "Full Name",
+    "petParent": "Pet Parent Name",
+    "creating": "Creating your account...",
+    "privacy": "Privacy Policy",
+    "agree": "I agree to the Terms of Service and Privacy Policy",
+    "dataProtection": "We protect your pet’s data with care and love"
+  },
+  "login": {
+    "title": "Let's continue caring for your pet",
+    "email": "Email",
+    "emailPlaceholder": "pet.parent@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "remember": "Remember me",
+    "forgot": "Forget Password",
+    "login": "Login",
+    "or": "OR",
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "emailError": "Enter a valid email",
+    "passwordError": "Password must be at least 6 characters",
+    "failed": "Login failed. Please recheck your information.",
+    "invalid": "Either USERNAME or PASSWORD is incorrect.",
+    "loading": "Signing you in..."
+  },
+  "petProfile": {
+    "step": "Step",
+    "title": "Pet Profile",
+    "editTitle": "Edit Pet Profile",
+    "cat": "Cat",
+    "dog": "Dog",
+    "petName": "Pet Name",
+    "placeholder": "Enter your pet name",
+    "petNameError": "Pet name is required",
+    "tip": "Tip:",
+    "tipText": "If you enter “Leo,” a demo profile will be set up automatically.",
+    "next": "Next"
+  },
+  "petBreed": {
+    "step": "Step 2/7",
+    "title": "Pet Breed",
+    "placeholder": "Enter your pet breed",
+    "popular": "Popular breeds",
+    "breeds": {
+      "toyPoodle": "Toy Poodle",
+      "chihuahua": "Chihuahua",
+      "pomeranian": "Pomeranian",
+      "shiba": "Shiba Inu",
+      "frenchBulldog": "French Bulldog",
+      "yorkshire": "Yorkshire Terrier",
+      "maltese": "Maltese",
+      "papillon": "Papillon",
+      "dachshund": "Dachshund",
+      "shihTzu": "Shih Tzu"
+    },
+    "note": "If you’re not sure, “Mixed” is fine.",
+    "failed":"Failed to fetch breeds:",
+    "next": "Next",
+    "editCat":"Edit Cat Breed",
+    "editDog":"Edit Dog Breed",
+    "cat":"Cat Breed",
+    "dog":"Dog Breed"
+  },
+  "age": {
+    "step": "Step 3/7",
+    "title": "Age Input",
+    "gender": "Gender",
+    "male": "M",
+    "female": "F",
+    "example": "i.e. Male",
+    "dob": "Date of Birth",
+    "date": "Date",
+    "month": "Month",
+    "year": "Year",
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "July",
+      "aug": "Aug",
+      "sep": "Sept",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "selectG": "Please select gender",
+    "completeDOB": "Please enter your pet’s complete date of birth.",
+    "onlyDays": "has only days.",
+    "futureDOB": "Date of birth cannot be in the future.",
+    "dobType": "DD/MM/YYYY",
+    "next": "Next"
+  },
+  "allergies": {
+    "step": "Step 4/7",
+    "title": "Pet Allergies",
+    "allergies": "Allergies",
+    "items": {
+      "chicken": "Chicken",
+      "beef": "Beef",
+      "dairy": "Dairy",
+      "eggs": "Eggs",
+      "wheat": "Wheat",
+      "soy": "Soy",
+      "none":"None"
+    },
+    "custom": "Custom Allergy",
+    "select":"Please select at least one allergy or enter a custom allergy.",
+    "placeholder": "Enter your pet allergy",
+    "sensitivity": "Sensitivity",
+    "options": {
+      "grainFree": "Grain-Free",
+      "glutenFree": "Gluten-Free",
+      "lowFat": "Low Fat",
+      "sensitiveStomach": "Sensitive Stomach"
+    },
+    "clear": "Clear All",
+    "next": "Next"
+  },
+  "upload": {
+    "step": "Step 5/7",
+    "pic": "Upload Photo (Optional)",
+    "pet": "Pet",
+    "default":"Default paw avatar",
+    "note": "Note:",
+    "noteText": "If skipped, a default avatar will be used.",
+    "skip": "Skip",
+    "next": "Next"
+  },
+  "summary": {
+    "step": "Step 6/7",
+    "seven":"Step 7/7",
+    "title": "Summary",
+    "petName": "Pet Name",
+    "typeBreed": "Pet type × pet breed",
+    "allergies": "Allergies",
+    "sensitivity": "Sensitivity",
+    "diet": "Diet Type",
+    "vegan": "Vegan",
+    "edit": "Edit",
+    "finish": "Finish",
+    "update": "Update Pet"
+  },
+  "forgotPassword": {
+  "title": "Forgot Password",
+  "email": "Email",
+  "back": "Back to Login",
+  "send": "Send OTP",
+  "sending": "Sending...",
+  "loading": "Sending reset code...",
+  "signup": "Sign up",
+  "invalidEmail": "Enter a valid email",
+  "otpSentTitle": "OTP Sent",
+  "otpSentMessage": "Check your email for the verification code",
+  "errorTitle": "Error",
+  "errorMessage": "Failed to send OTP. Please try again.",
+  "or": "OR"
+},
+  "otp": {
+    "title": "Enter Verification code",
+    "notReceived": "If you didn’t receive the code",
+    "resend": "Resend In 30 Sec",
+    "verify": "Verify",
+    "verified": "Verified",
+    "invalid": "Invalid OTP",
+    "failed": "Verification failed",
+    "sent": "OTP Sent",
+    "resendFail": "Failed to resend OTP",
+    "enter": "Enter Verification Code"
+  },
+  "setPassword": {
+    "title": "Enter new password",
+    "password": "Enter new password",
+    "confirm": "Confirm password",
+    "confirmPlaceholder": "Re-enter the password",
+    "rules": {
+      "title": "Password must include:",
+      "length": "At least 8 characters",
+      "number": "One number",
+      "letter": "One letter"
+    },
+    "back": "Back to Login",
+    "submit": "Submit"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "bookings": "Bookings",
+    "bentos": "Bentos",
+    "profile": "Profile"
+  },
+  "shop": {
+    "search": "Search food, toys, grooming…",
+    "petName": "Bruno",
+    "addLater": "Add age * Breed later",
+    "allergy": "⚠️ Allergy",
+    "recommended": "Recommended Products",
+    "foods": "Foods",
+    "toys": "Toys",
+    "supplements": "Supplements",
+    "viewMore": "View more",
+    "add": "Add"
+  },
+  "booking": {
+    "title": "Booking",
+    "salons": "Salons",
+    "clinics": "Pet Clinics",
+    "hotels": "Pet Hotels",
+    "grooming": "Professional Grooming",
+    "groomingDesc": "Full grooming service",
+    "vet": "Veterinary Checkup",
+    "walk": "Dog Walking Service",
+    "vetDesc": "Complete health checkup",
+    "walkDesc": "Professional dog walking",
+    "duration45": "45 Min",
+    "duration1Day": "1 Day",
+    "add": "Add",
+    "success": "Booking Successful!",
+    "placed": "Your order has been placed successfully.",
+    "orderNumber": "Order Number",
+    "continue": "Continue shopping"
+  },
+  "bento": {
+    "title": "Bento",
+    "kittenPlan": "Kitten Growth Plan",
+    "maintenance": "Maintenance Plan",
+    "weight": "Weight Management Plan",
+    "activeDog": "Active Dog Plan",
+    "seniorCat": "Senior Cat Care"
+  },
+  "profile": {
+    "title": "Profile",
+    "username": "User_Name",
+    "email": "User_email@gmail.com",
+    "reservations": "Reservations",
+    "purchased": "Purchased",
+    "rating": "Rating",
+    "points": "Points",
+    "pets": "Pets",
+    "dog": "Dog",
+    "cat": "Cat",
+    "breed": "Breed",
+    "active": "Active",
+    "addPet": "Add Pet +",
+    "addresses": "Addresses",
+    "language": "Language",
+    "payments": "Payments",
+    "orders": "Orders",
+    "help": "Help",
+    "logout": "Logout"
+  },
+  "petinfo":{
+    "pet": "Your Pet",
+    "breed": "Breed later",
+    "type": "Type"
+  },
+  "addresses": {
+    "title": "Addresses",
+    "home": "Home Address",
+    "office": "Office Address",
+    "postcode": "Post Code",
+    "add": "Add Address +",
+    "edit": "Edit"
+  },
+  "payment": {
+    "title": "Payment Methods",
+    "visa": "Visa **** 4111",
+    "master": "Master Card",
+    "expires": "Expires MM/DD",
+    "add": "Add Payment Options",
+    "edit": "Edit"
+  },
+  "orders": {
+    "title": "Orders",
+    "empty": "You don’t order anything",
+    "oops": "OOPS!",
+    "orderNow": "Order Now"
+  },
+  "cart": {
+    "title": "Cart",
+    "items": "Items",
+    "remove": "Remove",
+    "orderNow": "Order Now",
+    "similar": "Similar products:",
+    "empty": "Your cart is empty",
+    "order": "Order Now",
+    "processingOrder": "Processing your order..."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "heading": "Notification Heading",
+    "content": "Notification_Content",
+    "expiry": "Expiry_Date",
+    "read": "Mark as Read",
+    "empty": "No notifications yet!",
+    "delete": "Delete all",
+    "emptyDesc": "You are all caught up. We will notify you when something arrives.",
+    "link":"Success",
+    "copied":"Link copied to clipboard!",
+    "check":"Check out this product on WanNya",
+    "shareCancel":"Share cancelled",
+    
+    "bookingConfirmed": {
+      "title": "Booking Confirmed",
+      "desc": "Your grooming session is booked successfully.",
+      "expires": "Expires on"
+    }
+  },
+  "system": {
+    "error": "Error",
+    "otpSent": "OTP sent",
+    "addedToCart": "Added to cart",
+    "sessionExpired": "Session expired"
+  },
+  "product": {
+    "packSize": "Pack Size:",
+    "details": "Product Details",
+    "detailExample": "Premium quality product designed for your pet's health and happiness.",
+    "viewDetails": "View Product Details",
+    "key":"Key Features",
+    "youMayLike": "You might also like:",
+    "add": "ADD",
+    "similar": "Similar products:",
+    "addToCart": "Add to Cart",
+    "inStock": "In Stock",
+    "freeDelivery": "Free Delivery",
+    "quality": "Quality Assured",
+    "returns": "Easy Returns",
+    "quantity": "Quantity",
+    "buyNow": "Buy Now",
+    "review": "Reviews",
+    "reviews": "Customer Reviews",
+    "writeReview": "Write a Review",
+    "submit": "Submit Review",
+    "select":"Select how many you need",
+    "by": "by",
+    "ingred":"Ingredients",
+    "nutInfo":"Nutritional Information",
+    "total": "Total Price"
+  },
+  "grooming": {
+    "timings": "Timings:",
+    "opening": "Opening: 5PM",
+    "closing": "Closing: 11AM"
+  },
+  "calendar": {
+    "selectDate": "Select Check-in date",
+    "done": "Done"
+  },
+  "timing": {
+    "selectTime": "Select Check-in Time"
+  },
+  "search": {
+    "tryAgain": "Try adjusting your filters or searching for something else",
+    "removeAllergy": "Remove allergy filters",
+    "increasePrice": "Increase price range",
+    "checkSpelling": "Check spelling",
+    "clear": "Clear all filters",
+    "placeholder": "Search products, brands, services...",
+    "loading": "Searching…",
+    "failed": "Search failed",
+    "foodsearch": "Search food, toys, grooming",
+    "question": "What are you looking for?",
+    "description": "Search food, toys, supplements, and services.",
+    "no":"No results found",
+    "title":"search",
+    "results": {
+      "found": "Found",
+      "for": "results for"
+    },
+    "sort": {
+      "label": "Sort:",
+      "relevance": "Relevance",
+      "lowToHigh": "Price: Low to High",
+      "highToLow": "Price: High to Low"
+    },
+    "categories": {
+      "all": "All Categories",
+      "food": "Food",
+      "toys": "Toys",
+      "supplements": "Supplements"
+    },
+    "filters": "Filters",
+    "noSuggestions": "No suggestions for"
+  },
+  "filters": {
+    "title": "Filters",
+    "clear": "Clear Filters",
+    "species": "Species",
+    "age": "Age Stage",
+    "size": "Size",
+    "brand": "Brand",
+    "price": "Price Range",
+    "allergy": "Allergy tags",
+    "total": "Total results",
+    "apply": "Apply"
+  },
+  "sort": {
+    "title": "Sort By",
+    "relevance": "Relevance",
+    "popularity": "Popularity",
+    "lowToHigh": "Price -- Low to High",
+    "highToLow": "Price -- High to Low"
+  },
+  "error": {
+    "title": "Error",
+    "login": "Login failed. Please recheck your information",
+    "incorrect": "Incorrect"
+  },
+  "noInternet": {
+    "title": "Error",
+    "oops": "OOPS!",
+    "message": "Your internet Connections is lost",
+    "retry": "Re-Connect"
+  },
+  "success": {
+    "title": "Congratulations!!",
+    "message": "Your order has successfully booked",
+    "continue": "Continue"
+  },
+  "failure": {
+    "title": "Error",
+    "message": "Something went wrong, Your order has failed to book",
+    "retry": "Try again"
+  },
+  "splash": {
+    "welcome": "Welcome to WanNya",
+    "subtitle": "Let’s find the perfect care for your beloved pet",
+    "allergyFriendly": "Allergy-Friendly",
+    "allergyDesc": "We deliver safe products designed with your pet’s allergies in mind.",
+    "acrossTokyo": "Across Tokyo",
+    "tokyoDesc": "From grooming to dog-walking, connect with trusted professionals.",
+    "companion": "Pet Care Companion",
+    "tryDemo": "Try Demo",
+    "signup": "Sign Up",
+    "login": "Login"
+  },
+  "reviews": {
+    "error": "Error",
+    "writeReview": "Please write a review",
+    "reviewSubmitted": "Review Submitted",
+    "thankYou": "Thank you for your feedback!",
+    "submitFailed": "Failed to submit review",
+    "customerReviews": "Customer Reviews",
+    "avg": "Average",
+    "stars":"stars",
+    "reviewsCount": "reviews",
+    "rating": "Rating",
+    "writeAReview": "Write a Review",
+    "yourReview": "Your Review",
+    "placeholder": "Share your experience with this product...",
+    "submitReview": "Submit Review",
+    "loading": "Loading reviews...",
+    "noReviews": "No reviews yet. Be the first to review!",
+    "verified": "Verified Purchase",
+    "helpful": "Helpful"
+  },
+  
+  "resetPassword": {
+    "title": "Reset Password",
+    "success": "Password reset successfully! Please login with your new password.",
+    "error": "Failed to reset password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "verifyReset": "Verify & Reset Password"
+  },
+  "pets": {
+    "noPets": "No pets yet",
+    "addFirst": "Add your first pet",
+    "desc":"Add your first pet to start booking services",
+    "refresh":"Refresh",
+    "error":"Error",
+    "load":"Loading pets..."
+  },
+   "popularBreeds": {
+    "dogBreeds":{
+      "labradorRetriever": "Labrador Retriever",
+      "germanShepherd": "German Shepherd",
+      "goldenRetriever": "Golden Retriever",
+      "frenchBulldog": "French Bulldog",
+      "bulldog": "Bulldog",
+      "poodle": "Poodle",
+      "beagle": "Beagle",
+      "rottweiler": "Rottweiler"
+    },
+    "catBreeds":{
+      "persian": "Persian",
+      "maineCoon": "Maine Coon",
+      "britishShorthair": "British Shorthair",
+      "americanShorthair": "American Shorthair",
+      "ragDoll": "Ragdoll",
+      "bengal": "Bengal",
+      "siamese": "Siamese",
+      "abyssinian": "Abyssinian"
+    },
+     "search":"Search",
+     "breed":"Breed"
+   },
+  "onboarding": {
+    "step1": "Step 1/7",
+    "step2": "Step 2/7",
+    "step3": "Step 3/7",
+    "step4": "Step 4/7",
+    "step5": "Step 5/7",
+    "step6": "Step 6/7",
+    "step7": "Step 7/7",
+    "next": "Next",
+    "finish": "Finish"
+  }
+}
