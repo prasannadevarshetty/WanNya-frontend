@@ -9,6 +9,18 @@ import { useWishlistStore } from '@/store/useWishlistStore';
 import { useOnboardingStore } from '@/store/useOnboardingStore';
 import { useSearchStore } from '@/store/useSearchStore';
 
+const setAuthCookie = (token: string) => {
+  if (typeof document !== 'undefined') {
+    document.cookie = `wanya_token=${token}; path=/; max-age=${30 * 24 * 60 * 60}; SameSite=Lax`;
+  }
+};
+
+const removeAuthCookie = () => {
+  if (typeof document !== 'undefined') {
+    document.cookie = 'wanya_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+  }
+};
+
 interface AuthState {
   user: User | null;
   token: string | null;
@@ -60,6 +72,9 @@ export const useAuthStore = create<AuthState>()(
           localStorage.setItem('wanya_token', token);
           localStorage.setItem('wanya_user', JSON.stringify(user));
 
+          // Set cookie for middleware
+          setAuthCookie(token);
+
           set({
             user,
             token,
@@ -87,6 +102,9 @@ export const useAuthStore = create<AuthState>()(
           // Store token and user in localStorage
           localStorage.setItem('wanya_token', token);
           localStorage.setItem('wanya_user', JSON.stringify(user));
+
+          // Set cookie for middleware
+          setAuthCookie(token);
 
           set({
             user,
@@ -116,6 +134,9 @@ export const useAuthStore = create<AuthState>()(
           localStorage.setItem('wanya_token', token);
           localStorage.setItem('wanya_user', JSON.stringify(user));
 
+          // Set cookie for middleware
+          setAuthCookie(token);
+
           set({
             user,
             token,
@@ -142,6 +163,9 @@ export const useAuthStore = create<AuthState>()(
           // Clear stored data
           localStorage.removeItem('wanya_token');
           localStorage.removeItem('wanya_user');
+          
+          // Clear cookie
+          removeAuthCookie();
           
           // Clear all related stores
           useProfileStore.getState().clearProfile();
@@ -177,6 +201,8 @@ export const useAuthStore = create<AuthState>()(
       clearAuth: () => {
         localStorage.removeItem('wanya_token');
         localStorage.removeItem('wanya_user');
+        // Clear cookie
+        removeAuthCookie();
         set(initialState);
       },
 
@@ -185,9 +211,13 @@ export const useAuthStore = create<AuthState>()(
         const storedUser = localStorage.getItem('wanya_user');
         
         if (!token) {
+          removeAuthCookie();
           set(initialState);
           return;
         }
+
+        // Ensure cookie is in sync with localStorage
+        setAuthCookie(token);
 
         // If we have stored user data, use it immediately and validate in background
         if (storedUser) {
